@@ -18,5 +18,7 @@ console.log(muchos_peces.includes("Pepitillo"))
 
 /**
  * CONTESTA: ¿Por qué el primer console log arroja el valor "true" y el segundo arroja el valor "false"?
+ * Arroja estos valores ya que busca en el array se se encuentra la el elemento buscado, al encontrarlo lanza el mensaje TRUE y si ese elemento no lo encuentra sale FALSE
  * CONTESTA: ¿Que TIPO de dato devuelve la función 'includes' (number, string, boolean o array)? 
+ * Devuelve un dato Booleano
  */

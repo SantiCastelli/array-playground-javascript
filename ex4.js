@@ -17,4 +17,6 @@
   let pezPosicion2 = muchos_peces.indexOf("estrella")
   console.log("Estrella está en la posición: " + pezPosicion2)
 
+  // sale en -1 ya que esta mal escrito no esta en mayuscula. Por lo que al buscar estrella en minuscula no se escuentra en la array y muestra un -1. Al modificarlo y poner estrella con mayuscula aparace el numero 3.
+ 
   

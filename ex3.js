@@ -25,3 +25,4 @@ for(let i=0; i<=muchos_peces.length; i++) {
     console.log("Pez siguiente: " + siguiente_pez)
 }
 
+// En el ultimo aparece undefined ya que en la array no hay ningun elemento que este en el inice 4. la i empieza en 0 y va hasta la cantidad de elemnetos de la array que son 4 (dory, nemo, shipho y estrella.) Como ningun elemento ocupa el indice 4 sale error. 

@@ -6,7 +6,7 @@ function existePez(listaPeces, pezBuscado) {
     let pezEncontrado = false
     let i = 0
 
-    while(!pezEncontrado && i<listapeces.length-1) {
+    while(!pezEncontrado && i<listaPeces.length) {
         pezEncontrado = (listaPeces[i] == pezBuscado) 
         i++      
     }
@@ -25,7 +25,12 @@ console.log("He encontrado al pez?: " + he_encontrado_al_pez)
  * Sin embargo devuelve false. Hay dos errores:
  * 
  * 1. Un error que impide ejecutar el código. Vigila la información que arroja el TERMINAL
+ * 
+ *  Aca el error era en la linea 9 que listaPeces estaba con la p minuscula.
+ * 
  * 2. Un error lógico; que hace que el código no devuelve lo que debería devolver.
  * 
+ *  Borre el -1 en la linea 9 ya que me parecia raro y al quitarlo se soluciono.  
+ *
  * Pon "chivatos" en el código para aydarte a averiguar que está sucediendo; o usa el depurador de Visual Studio para ejecutar el código paso a paso
  */
